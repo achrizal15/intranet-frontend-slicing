@@ -47,7 +47,7 @@ function Index() {
                   </Grid>
                   <Grid item xs={6}>
                        <Paper style={{ backgroundImage: 'url("/vendor/images/banner2.png")', height: 150, backgroundSize: "cover", position: "relative" ,overflowText:'ellipsis'}} >
-                      <Typography variant="span" style={{ position: 'absolute', bottom: 15, left: 15,paddingRight:25 }} className="one-line-ellipsis uppercase" width="100%" fontWeight={800} color="white.main" alignContent="bottom">
+                      <Typography variant="span" style={{ position: 'absolute', bottom: 15, left: 15,paddingRight:25 }} className="one-line-ellipsis uppercase " width="100%" fontWeight={800} color="white.main" alignContent="bottom">
                         Danone article nomor 12 dan seterusnya
                       </Typography>
                     </Paper>

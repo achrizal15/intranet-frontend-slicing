@@ -9,10 +9,11 @@ const theme = createTheme({
             // Purple and green play nicely together.
             main: "#00339E",
         },
+        danger: { main: "#D6281B" },
         secondary: {
-            // This is green.A700 as hex.
             main: '#11cb5f',
         },
+        success: { main: "#1BD64F" },
         info: {
             main: "#E9F4FF"
         },

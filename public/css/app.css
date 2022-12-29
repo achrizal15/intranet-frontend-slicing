@@ -64,7 +64,6 @@ a {
   white-space: nowrap;
   /* Prevent line breaks */
   overflow: hidden;
-  /* Truncate text that is too long */
   text-overflow: ellipsis;
   /* Add an ellipsis to indicate truncation */
 }
