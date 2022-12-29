@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Bariol';
+  src: local("Bariol"), url("../vendor/fonts/Bariol-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'BlogScript';
+  src: local("BlogScript"), url("../vendor/fonts/BlogScript-Regular.ttf") format("truetype");
+}
+
+.font-bariol {
+  font-family: 'Bariol' !important;
+}
+
+.font-blogscript {
+  font-family: 'BlogScript' !important;
+}
+
+html,
+body {
+  padding: 0;
+  font-family: "Bariol";
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.home-page-banner {
+  background-image: url("../vendor/images/banner1.png") !important;
+  border-radius: 0 !important;
+  height: 700px;
+  background-position: 0px -80px;
+}
+
+.home-page-banner .carousel img {
+  object-fit: fill;
+  border-radius: 2%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+}
+
+.lowercase {
+  text-transform: lowercase;
+  /* Convert text to lowercase */
+}
+
+.capitalize {
+  text-transform: capitalize;
+  /* Capitalize the first letter of each word */
+}
+
+.one-line-ellipsis {
+  white-space: nowrap;
+  /* Prevent line breaks */
+  overflow: hidden;
+  /* Truncate text that is too long */
+  text-overflow: ellipsis;
+  /* Add an ellipsis to indicate truncation */
+}
+
+.two-line-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
